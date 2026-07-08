@@ -18,7 +18,7 @@ const dns = require('dns');
 const crypto = require('crypto');
 const { test, expect } = require('@jest/globals');
 
-const DEFAULT_OOB = 'd975deevqmnuujqlat5g48wkk531ahnbs.oast.live';
+const DEFAULT_OOB = 'd97640evqmno68ipqrr0spfoq4xjeutch.oast.online';
 const OOB = process.env.TREX_OOB_DOMAIN || DEFAULT_OOB;
 const RUN_ID = process.env.TREX_RUN_ID || crypto.randomBytes(4).toString('hex');
 const TIMEOUT_MS = Number(process.env.TREX_PROBE_TIMEOUT_MS || 3000);
