@@ -1,0 +1,17 @@
+{
+  "name": "greptile-trex-test",
+  "version": "1.0.0",
+  "description": "Minimal Jest project for authorized Greptile/TREX sandbox validation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --runInBand trex.probe.test.js",
+    "check": "node --check trex.probe.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "jest": "^30.4.2"
+  }
+}
